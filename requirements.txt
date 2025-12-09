@@ -1,4 +1,4 @@
-django==2.2.13
+django==4.2.27
 eventlet==0.30.0
 python-engineio==3.13.0
 python-socketio==4.6.1
@@ -9,3 +9,5 @@ django-livesync==0.5
 celery==4.4.7
 redis==3.2.0
 django-celery-results==1.2.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
